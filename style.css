@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.fotouemp {
+    display: flex;
+    width: 220px;
+    height: auto;
+
+
+    border-radius: 50%;
+}
+
+
+
+body {
+    width: 100%;
+    height: 30vh;
+}
+
+header {
+    background-color: rgba(24, 33, 209, 0.936);
+    width: 100%;
+    color: rgb(243, 242, 242);
+    text-align: center;
+    padding: 60px;
+}
+
+.ano {
+    font-size: 80px;
+}
+
+
+
+nav {
+
+    background-color: rgb(10, 14, 0);
+    display: flex;
+    align-items: center;
+
+}
+
+nav a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.s linear;
+}
+
+nav a:hover {
+    background-color: #949292;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row aside {
+    flex: 30%;
+    background-color: rgb(236, 236, 223);
+    padding: 20px;
+
+}
+
+.fake_im {
+    inline-size: auto;
+    width: 100%;
+    height: 50px;
+    margin: 15px 0px;
+}
+
+aside h3 {
+    margin: 10px 0;
+
+}
+
+.texte {
+    font-size: 50px;
+}
+
+.autor {
+    font-size: px;
+    font-weight: bold;
+
+}
+
+.row main {
+    flex: 70%;
+    padding: 10px;
+    background-color: rgb(248, 247, 243);
+
+}
+
+main .autor {
+    margin: 15px 0px;
+
+}
+
+article img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+article .description {
+    text-align: justify;
+    margin-top: 10px;
+
+}
+
+article {
+    margin: 20% 0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(36, 13, 187);
+    color: rgb(240, 240, 247);
+    text-align: center;
+    padding: 30px;
+}
+
+@media screen and(min-widtg: 450px) {
+    nav {
+        flex-direction: column;
+    }
+}
